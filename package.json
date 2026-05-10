@@ -1,0 +1,18 @@
+{
+  "name": "anime-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "build": "bun build ./src/index.ts --outdir ./dist",
+    "start": "bun run src/index.ts",
+    "lint": "bun x eslint ."
+  },
+  "dependencies": {
+    "hono": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.9",
+    "@types/node": "^25.5.0"
+  }
+}
